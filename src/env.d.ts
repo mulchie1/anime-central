@@ -1,1 +1,1 @@
-/// <reference path="../.astro/types.d.ts" />
+/// <reference path="../.astro/types.d.ts" />https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pinterest.com%2Fpin%2F840062136743636821%2F&psig=AOvVaw0AKdDx6-rymsCSQUfN_002&ust=1725498201804000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCNiK2u2LqIgDFQAAAAAdAAAAABAJ

@@ -64,3 +64,22 @@
 </html>
 
 src/page
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime Central</title>
+    <link href="/path/to/your/styles.css" rel="stylesheet">
+</head>
+<body>
+    <section class="relative bg-cover bg-center h-screen" style="background-image: url('https://via.placeholder.com/1200x800');">
+        <div class="absolute inset-0 bg-overlay"></div>
+        <div class="relative z-10 flex flex-col items-center justify-center h-full text-center text-white px-4">
+            <h1 class="text-5xl md:text-6xl font-bold mb-4 text-primary">Welcome to Anime Central</h1>
+            <p class="text-lg md:text-2xl mb-8">Your ultimate source for all things anime!</p>
+            <input type="text" placeholder="Search for anime..." class="px-4 py-2 rounded-md text-black w-full max-w-md">
+        </div>
+    </section>
+</body>
+</html>
