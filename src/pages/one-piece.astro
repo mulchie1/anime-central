@@ -3,5 +3,34 @@ import Layout from "../layouts/Layout.astro";
 ---
 
 <Layout title="One Piece">
+  <div class="bg-white">
+    <!-- Hero Section -->
+    <div class="relative h-64 bg-cover bg-center" style="background-image: url('/path/to/your/hero-image.jpg');">
+      <div class="absolute inset-0 bg-black opacity-50"></div>
+      <div class="relative z-10 text-white p-6">
+        <h1 class="text-4xl font-bold">One Piece</h1>
+        <p class="mt-2 text-lg">Join Monkey D. Luffy and his crew in their quest for the ultimate treasure, the One Piece!</p>
+      </div>
+    </div>
 
+    <!-- Description Section -->
+    <section class="p-6">
+      <h2 class="text-2xl font-bold mb-4">About One Piece</h2>
+      <p class="text-gray-700">
+        One Piece is a legendary anime series that follows the adventures of Monkey D. Luffy, a young pirate with the ability to stretch his body like rubber. Alongside his eclectic crew, the Straw Hat Pirates, he explores the Grand Line in search of the One Piece, the ultimate treasure that will make him the Pirate King. The series is renowned for its rich storytelling, vibrant characters, and epic battles.
+      </p>
+    </section>
+
+    <!-- Best Episodes Section -->
+    <section class="bg-gray-100 p-6">
+      <h2 class="text-2xl font-bold mb-4">Best Episodes</h2>
+      <ul class="list-disc list-inside text-gray-700">
+        <li>Episode 312: "The Return of the Captain" - A thrilling return that changes everything!</li>
+        <li>Episode 405: "The Strongest Man in the World" - An epic showdown that will leave you on the edge of your seat.</li>
+        <li>Episode 963: "The Tale of Luffy" - A flashback episode that dives deep into Luffy's past.</li>
+        <li>Episode 1074: "A New Era" - A game-changing episode that sets the stage for the next big arc.</li>
+        <li>Episode 1015: "The Summit War" - Witness the clash of titans in this unforgettable battle.</li>
+      </ul>
+    </section>
+  </div>
 </Layout>

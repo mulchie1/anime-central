@@ -37,14 +37,14 @@
                 <img src="https://via.placeholder.com/150" alt="Anime 1">
                 <div class="anime-info">
                     <h3>Anime Title 1</h3>
-                    <p>Brief description of Anime 1.</p>
+                    <p>ONE PIECE is a legendary high-seas quest unlike any other. Luffy is a young adventurer who has longed for a life of freedom ever since he can remember. He sets off from his small village on a perilous journey to find the legendary fabled treasure, ONE PIECE, to become King of the Pirates!</p>
                 </div>
             </div>
             <div class="anime-card">
                 <img src="https://via.placeholder.com/150" alt="Anime 2">
                 <div class="anime-info">
-                    <h3>Anime Title 2</h3>
-                    <p>Brief description of Anime 2.</p>
+                    <h3>JoJo Bizarre Adventure</h3>
+                    <p>The story of the Joestar family, who are possessed with intense psychic strength, and the adventures each member encounters throughout their lives. The story of the Joestar family, who are possessed with intense psychic strength, and the adventures each member encounters throughout their lives.</p>
                 </div>
             </div>
         </div>
