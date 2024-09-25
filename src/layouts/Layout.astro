@@ -17,6 +17,21 @@ const { title } = Astro.props;
 		<title>{title}</title>
 	</head>
 	<body>
+        <header class="bg-gray-800 text-white">
+            <div class="container mx-auto flex justify-between items-center p-4">
+                <h1 class="text-2xl font-bold">Anime Central</h1>
+                <nav>
+                    <ul class="flex space-x-4">
+                        <li><a href="#home" class="hover:text-gray-400">Home</a></li>
+                        <li><a href="#directory" class="hover:text-gray-400">Directory</a></li>
+                        <li><a href="#forum" class="hover:text-gray-400">Forum</a></li>
+                        <li><a href="#blog" class="hover:text-gray-400">Blog</a></li>
+                        <li><a href="#shop" class="hover:text-gray-400">Shop</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+    
 		<slot />
 	</body>
 </html>
@@ -59,72 +74,9 @@ const { title } = Astro.props;
 <body class="bg-gray-100">
 
     <!-- Header -->
-    <header class="bg-gray-800 text-white">
-        <div class="container mx-auto flex justify-between items-center p-4">
-            <h1 class="text-2xl font-bold">Anime Central</h1>
-            <nav>
-                <ul class="flex space-x-4">
-                    <li><a href="#home" class="hover:text-gray-400">Home</a></li>
-                    <li><a href="#directory" class="hover:text-gray-400">Directory</a></li>
-                    <li><a href="#forum" class="hover:text-gray-400">Forum</a></li>
-                    <li><a href="#blog" class="hover:text-gray-400">Blog</a></li>
-                    <li><a href="#shop" class="hover:text-gray-400">Shop</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+    
 
-    <!-- Hero Section -->
-    <section id="home" class="relative bg-cover bg-center h-screen" style="background-image: url('https://via.placeholder.com/1200x800');">
-        <div class="absolute inset-0 bg-black opacity-50"></div>
-        <div class="relative z-10 flex flex-col items-center justify-center h-full text-center text-white px-4">
-            <h1 class="text-5xl md:text-6xl font-bold mb-4">Welcome to Anime Central</h1>
-            <p class="text-lg md:text-2xl mb-8">Your ultimate source for all things anime!</p>
-            <input type="text" placeholder="Search for anime..." class="px-4 py-2 rounded-md text-black w-full max-w-md">
-        </div>
-    </section>
-
-    <!-- Featured Anime Section -->
-    <section id="directory" class="py-16">
-        <div class="container mx-auto px-4">
-            <h2 class="text-3xl font-bold mb-8 text-center">Featured Anime</h2>
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
-                    <img src="https://via.placeholder.com/300x200" alt="Anime 1" class="w-full h-48 object-cover">
-                    <div class="p-4">
-                        <h3 class="text-xl font-semibold">Anime Title 1</h3>
-                        <p class="text-gray-600 mt-2">Brief description of Anime 1.</p>
-                    </div>
-                </div>
-                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
-                    <img src="https://via.placeholder.com/300x200" alt="Anime 2" class="w-full h-48 object-cover">
-                    <div class="p-4">
-                        <h3 class="text-xl font-semibold">Anime Title 2</h3>
-                        <p class="text-gray-600 mt-2">Brief description of Anime 2.</p>
-                    </div>
-                </div>
-                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
-                    <img src="https://via.placeholder.com/300x200" alt="Anime 3" class="w-full h-48 object-cover">
-                    <div class="p-4">
-                        <h3 class="text-xl font-semibold">Anime Title 3</h3>
-                        <p class="text-gray-600 mt-2">Brief description of Anime 3.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="bg-gray-800 text-white py-4">
-        <div class="container mx-auto text-center">
-            <p>&copy; 2024 Anime Central. All rights reserved.</p>
-            <p class="mt-2">Follow us on:
-                <a href="#" class="text-gray-400 hover:text-gray-300 mx-2">Facebook</a>|
-                <a href="#" class="text-gray-400 hover:text-gray-300 mx-2">Twitter</a>|
-                <a href="#" class="text-gray-400 hover:text-gray-300 mx-2">Instagram</a>
-            </p>
-        </div>
-    </footer>
+  
 
 </body>
 </html>

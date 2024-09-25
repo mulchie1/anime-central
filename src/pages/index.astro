@@ -11,24 +11,10 @@ import Card from '../components/Card.astro';
     <title>Anime Central</title>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.3.0/dist/tailwind.min.css" rel="stylesheet">
 </head>
+<Layout>
 <body class="bg-gray-100">
 
-    <!-- Header -->
-    <header class="bg-gray-800 text-white">
-        <div class="container mx-auto flex justify-between items-center p-4">
-            <h1 class="text-2xl font-bold">Anime Central</h1>
-            <nav>
-                <ul class="flex space-x-4">
-                    <li><a href="#home" class="hover:text-gray-400">Home</a></li>
-                    <li><a href="#directory" class="hover:text-gray-400">Directory</a></li>
-                    <li><a href="#forum" class="hover:text-gray-400">Forum</a></li>
-                    <li><a href="#blog" class="hover:text-gray-400">Blog</a></li>
-                    <li><a href="#shop" class="hover:text-gray-400">Shop</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-
+ 
     <!-- Hero Section -->
     <section id="home" class="relative bg-cover bg-center h-screen" style="background-image: url('/background.jpg');">
         <div class="absolute inset-0 bg-black opacity-50"></div>
@@ -46,10 +32,13 @@ import Card from '../components/Card.astro';
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 <!-- Featured Anime Card 1 -->
                 <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                    <a href="/one-piece">
                     <img src="background1.avif" alt="Anime Title 1" class="w-full h-48 object-cover">
                     <div class="p-4">
-                        <h3 class="text-xl font-semibold">Anime Title 1</h3>
-                        <p class="text-gray-600 mt-2">Brief description of Anime 1.</p>
+                        
+                        <h3 class="text-xl font-semibold">One Piece</h3>
+                            <p class="text-gray-600 mt-2">Brief description of Anime 1.</p>
+                        </a>
                     </div>
                 </div>
                 <!-- Featured Anime Card 2 -->
@@ -85,6 +74,7 @@ import Card from '../components/Card.astro';
     </footer>
 
 </body>
+</Layout>
 </html>
 
 
